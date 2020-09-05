@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='formm.css' type='text/css' />
+<meta charset="utf-8">
+<title>JavaScript form validation - checking non-empty</title>
+<script src="project.js"></script>
+</head>
+<body>
+
+	<h1>Enter Your Details</h1>
+	<form>
+		Enter Name:<input id="text2" placeholder="Name" type="text"/><br>
+		<label id="lb2text" style="color:red;visibility:hidden">Invaild</label>
+		<br>
+	</form>
+	<form>
+		Enter Phone Number:<input id="text1" placeholder="Cellphone" type="text"/><br>
+		<label id="lb1text" style="color:red;visibility:hidden">Invaild</label>
+		<br>
+	</form>
+	<form>
+		Enter Email Id:<input id="text3" placeholder="Email id" type="text"/><br>
+		<label id="lb3text" style="color:red;visibility:hidden">Invaild</label>
+		<br>
+	</form>
+	   <button type="button" onclick="check();check2();check3();">Submit</button>
+
+</body>
+</html>
